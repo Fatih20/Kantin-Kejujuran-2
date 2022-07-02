@@ -1,0 +1,94 @@
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  --primary-color: 72, 90, 108;
+  --text-on-primary-element-color: 255, 255, 255;
+  --secondary-color: 212 212 212;
+  --text-on-secondary-element-color: 0, 0, 0;
+  --secondary-selected-color: 255, 161, 84;
+  --text-on-secondary-selected-element-color: 255, 255, 255;
+  --button-radius: 7px;
+  --button-smaller-radius: 4px;
+  --secondary-active-color: 255, 255, 255;
+  --text-on-secondary-active-element-color: 0, 0, 0;
+  --primary-border-color: 14 20 31;
+  --warning-color-bg: 237 83 83;
+  --warning-color-fg: 122 0 0;
+  --success-color-fg: 32 107 0;
+  --success-color-bg: 155 219 77;
+  --disabled-color: 126 128 135;
+  --text-on-disabled-element-color: 255, 255, 255;
+  --text-on-white-unintrusive-color: 102 102 102;
+
+  background-color: #1a1a1a;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgb(0, 100, 200);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(0, 80, 160);
+}
+
+label {
+  display: block;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-padding: 0.4em 0;
+  padding: 0.4em;
+  margin: 0 0 0.5em 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+input:disabled {
+  color: #ccc;
+}
+
+button {
+  color: #333;
+  cursor: pointer;
+  background-color: #f4f4f4;
+  outline: none;
+  transition: all 0.1s ease-in-out;
+}
+
+/* button:disabled {
+  color: #999;
+}
+
+button:not(:disabled):active {
+  background-color: #ddd;
+}
+
+button:focus {
+  border-color: #666;
+} */
